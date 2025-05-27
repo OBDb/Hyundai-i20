@@ -1,0 +1,17 @@
+command_id: 7E0.010D
+test_cases:
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7D1.224000
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 770.778.22BC07
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7D4.7DC.2101
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0

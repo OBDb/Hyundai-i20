@@ -1,0 +1,16 @@
+command_id: 7E0.0142
+test_cases:
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7D1.7D9.220104
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E4.7EC.220103
+    NO DATA
+    > 7D1.7D9.2101
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423675
+  expected_values:
+    VPWR: 13.941

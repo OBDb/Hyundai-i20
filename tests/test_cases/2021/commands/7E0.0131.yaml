@@ -1,0 +1,12 @@
+command_id: 7E0.0131
+test_cases:
+- response: |-
+    > 7E1.2201A4
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E4.7EC.2105
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441311100
+  expected_values:
+    CLR_DIST: 4352

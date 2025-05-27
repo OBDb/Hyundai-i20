@@ -1,0 +1,11 @@
+command_id: 7E0.010C
+test_cases:
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7E0.7D8.2118
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7E8.010C
+    7E804410C0D4E
+  expected_values:
+    RPM: 851.5
