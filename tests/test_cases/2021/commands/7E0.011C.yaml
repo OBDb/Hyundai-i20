@@ -1,0 +1,5 @@
+command_id: 7E0.011C
+test_cases:
+- response: "> 7E0.7E8.011C\n011C\n7E8 03 41 1C 06 "
+  expected_values:
+    OBDSUP: EOBD

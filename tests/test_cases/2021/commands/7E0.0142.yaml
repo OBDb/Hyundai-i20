@@ -1,5 +1,22 @@
 command_id: 7E0.0142
 test_cases:
+- response: '7E8 04 41 42 36 17 '
+  expected_values:
+    VPWR: 13.847
+- response: '7E80441423034'
+  expected_values:
+    VPWR: 12.34
+- response: "> 7D1.7D9.2101\n2101\nNO DATA\n> 7E0.7E8.0142\n01421\n7E8 04 41 42 36
+    17 "
+  expected_values:
+    VPWR: 13.847
+- response: |-
+    > 7E1.2201A4
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441422F8F
+  expected_values:
+    VPWR: 12.175
 - response: |-
     BUS INIT:  . . .UNABLE TO CONNECT
     > 7D1.7D9.220104
@@ -14,3 +31,18 @@ test_cases:
     7E80441423675
   expected_values:
     VPWR: 13.941
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7E4.7EC.22010B
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 770.778.22BC04
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7D8.2118
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142362E
+  expected_values:
+    VPWR: 13.87

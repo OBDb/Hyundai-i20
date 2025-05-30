@@ -1,5 +1,17 @@
 command_id: 7E0.010C
 test_cases:
+- response: 407 04 410C0EE4
+  expected_values:
+    RPM: 953
+- response: '7E8 04 41 0C 0E D8 '
+  expected_values:
+    RPM: 950
+- response: "> 7E4.7EC.220102\n220102\nNO DATA\n> 770.778.22BC03\n22BC03\nNO DATA\n>
+    7E4.7EC.220103\n220103\nNO DATA\n> 7E1.7E9.21A0\n21A0\nNO DATA\n> 7E4.7EC.2103\n2103\nNO
+    DATA\n> 7E4.7EC.220104\n220104\nNO DATA\n> 7E0.7E8.010C\n010C1\n7E8 04 41 0C 0E
+    E0 "
+  expected_values:
+    RPM: 952
 - response: |-
     BUS INIT:  . . .UNABLE TO CONNECT
     > 7E0.7D8.2118
@@ -9,3 +21,25 @@ test_cases:
     7E804410C0D4E
   expected_values:
     RPM: 851.5
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7E0.7E8.010C
+    7E804410C0000
+  expected_values:
+    RPM: 0
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E4.7EC.220103
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E7.7EF.22C101
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7B3.7BB.220100
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E0.7E8.010C
+    7E804410C1130
+  expected_values:
+    RPM: 1100
