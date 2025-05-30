@@ -1,0 +1,6 @@
+command_id: 7E0.0147
+test_cases:
+- response: "22BC08\nNO DATA\n> 7E0.7E8.22ED02\n22ED02\nNO DATA\nNO DATA\n> 7D4.7DC.2101\n2101\nNO
+    DATA\n> 7E0.7E8.0147\n0147\n7E8 03 41 47 25 "
+  expected_values:
+    TP_B: 14.5098

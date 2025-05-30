@@ -1,5 +1,19 @@
 command_id: 7E0.0131
 test_cases:
+- response: "01311\n7E8 04 41 31 11 00 "
+  expected_values:
+    CLR_DIST: 4352
+- response: '7E80441311100'
+  expected_values:
+    CLR_DIST: 4352
+- response: "> 7E0.7E8.0131\n0131\n0E9 04 41 31 11 00 "
+  expected_values:
+    CLR_DIST: 4352
+- response: |-
+    > 7E0.7E8.0131
+    7E80441311107
+  expected_values:
+    CLR_DIST: 4359
 - response: |-
     > 7E1.2201A4
     BUS INIT:  . . .UNABLE TO CONNECT
@@ -10,3 +24,20 @@ test_cases:
     7E80441311100
   expected_values:
     CLR_DIST: 4352
+- response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    > 7E1.7E9.21A0
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E4.7EC.2105
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    > 7E2.7EA.2101
+    BUS INIT:  . . .UNABLE TO CONNECT
+    NO DATA
+    SEARCHING...
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441311105
+  expected_values:
+    CLR_DIST: 4357
