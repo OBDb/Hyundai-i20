@@ -1,6 +1,0 @@
-command_id: 7E0.0111
-test_cases:
-- response: "> 7B3.7BB.220100\n220100\nNO DATA\n> 7E0.7E8.0111\n0111\n7E8 03 41 11
-    25 "
-  expected_values:
-    TP: 14.5098

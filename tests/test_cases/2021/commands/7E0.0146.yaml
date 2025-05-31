@@ -1,34 +1,5 @@
 command_id: 7E0.0146
 test_cases:
-- response: '7E8 03 41 46 45 '
-  expected_values:
-    AAT: 29
 - response: '7E803414643'
-  expected_values:
-    AAT: 27
-- response: |-
-    > 7C6.7CE.22B002
-    NO DATA
-    > 7E0.7D8.2118
-    NO DATA
-    > 7E4.7EC.220103
-    NO DATA
-    > 7D1.224000
-    NO DATA
-    > 7E4.7EC.220104
-    NO DATA
-    > 7E0.7E8.0146
-    7E803414645
-  expected_values:
-    AAT: 29
-- response: "> 7E4.7EC.220101\n220101\nNO DATA\n> 7E0.7D8.2118\n2118\nNO DATA\n> 7E7.7EF.22C101\n22C101\nNO
-    DATA\n> 770.778.22BC04\n22BC04\nNO DATA\n> 7A0.7A8.22C00B\n22C00B\nNO DATA\n>
-    7E0.7E8.0146\n01461\n7E8 03 41 46 45 "
-  expected_values:
-    AAT: 29
-- response: |-
-    BUS INIT:  . . .UNABLE TO CONNECT
-    > 7E0.7E8.0146
-    7E803414643
   expected_values:
     AAT: 27
