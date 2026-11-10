@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 98
     I20_CLUTCH_2_T: 94
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -17,7 +16,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 158
     I20_CLUTCH_2_T: 128
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -31,7 +29,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: -10
     I20_CLUTCH_2_T: -10
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -45,7 +42,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 154
     I20_CLUTCH_2_T: 126
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -59,7 +55,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: -20
     I20_CLUTCH_2_T: -20
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -73,7 +68,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 96
     I20_CLUTCH_2_T: 94
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -87,7 +81,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 94
     I20_CLUTCH_2_T: 80
-    I20_GEAR_CUR: 0
     I20_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -101,7 +94,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 120
     I20_CLUTCH_2_T: 46
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -115,7 +108,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 70
     I20_CLUTCH_2_T: 56
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -129,7 +122,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 62
     I20_CLUTCH_2_T: 64
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -143,7 +136,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 228
     I20_CLUTCH_2_T: 184
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -157,7 +150,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 124
     I20_CLUTCH_2_T: 124
-    I20_GEAR_CUR: 2
+    I20_GEAR_CUR: '2'
     I20_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -171,7 +164,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 182
     I20_CLUTCH_2_T: 148
-    I20_GEAR_CUR: 3
+    I20_GEAR_CUR: '3'
     I20_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -185,7 +178,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 60
     I20_CLUTCH_2_T: 80
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -199,7 +192,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 26
     I20_CLUTCH_2_T: 24
-    I20_GEAR_CUR: 2
+    I20_GEAR_CUR: '2'
     I20_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -213,7 +206,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 78
     I20_CLUTCH_2_T: 66
-    I20_GEAR_CUR: 2
+    I20_GEAR_CUR: '2'
     I20_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -227,7 +220,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 66
     I20_CLUTCH_2_T: 60
-    I20_GEAR_CUR: 3
+    I20_GEAR_CUR: '3'
     I20_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -241,7 +234,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 178
     I20_CLUTCH_2_T: 168
-    I20_GEAR_CUR: 14
     I20_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -255,7 +247,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 80
     I20_CLUTCH_2_T: 82
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -269,7 +261,6 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 146
     I20_CLUTCH_2_T: 110
-    I20_GEAR_CUR: 14
     I20_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -283,7 +274,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 146
     I20_CLUTCH_2_T: 126
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -297,7 +288,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 160
     I20_CLUTCH_2_T: 104
-    I20_GEAR_CUR: 1
+    I20_GEAR_CUR: '1'
     I20_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -311,7 +302,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 138
     I20_CLUTCH_2_T: 120
-    I20_GEAR_CUR: 5
+    I20_GEAR_CUR: '5'
     I20_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
@@ -325,7 +316,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 232
     I20_CLUTCH_2_T: 172
-    I20_GEAR_CUR: 5
+    I20_GEAR_CUR: '5'
     I20_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
@@ -339,7 +330,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 238
     I20_CLUTCH_2_T: 176
-    I20_GEAR_CUR: 5
+    I20_GEAR_CUR: '5'
     I20_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
@@ -353,7 +344,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 92
     I20_CLUTCH_2_T: 78
-    I20_GEAR_CUR: 7
+    I20_GEAR_CUR: '7'
     I20_GEAR_NXT: 7
   response: |-
     7E910326201A4FFFFFF
@@ -367,7 +358,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 118
     I20_CLUTCH_2_T: 74
-    I20_GEAR_CUR: 2
+    I20_GEAR_CUR: '2'
     I20_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -381,7 +372,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 116
     I20_CLUTCH_2_T: 102
-    I20_GEAR_CUR: 2
+    I20_GEAR_CUR: '2'
     I20_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -395,7 +386,7 @@ test_cases:
 - expected_values:
     I20_CLUTCH_1_T: 166
     I20_CLUTCH_2_T: 132
-    I20_GEAR_CUR: 3
+    I20_GEAR_CUR: '3'
     I20_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
