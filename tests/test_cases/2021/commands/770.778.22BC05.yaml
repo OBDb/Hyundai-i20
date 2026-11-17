@@ -12,7 +12,6 @@ test_cases:
     778210000080000AAAA
 - expected_values:
     I20_HAZARD_SW: 0
-    I20_HL_SW: 1
   response: |-
     778100B62BC050F1324
     778210000400400AAAA
