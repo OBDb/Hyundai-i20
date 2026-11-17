@@ -1,7 +1,10 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
-    I20_TP_FR: 0.4
+    I20_TP_FL: null
+    I20_TP_FR: null
+    I20_TP_RL: null
+    I20_TP_RR: null
   response: |-
     7A8102462C00BFFFFFF
     7A82180000000000200
@@ -10,16 +13,7 @@ test_cases:
     7A8243DFFFFFFFFFFFF
     7A825FFFFAAAAAAAAAA
 - expected_values:
-    I20_TP_FR: 0.4
-  response: |-
-    7A8102462C00BFFFFFF
-    7A82180000000000200
-    7A82200000002000000
-    7A82300020000000002
-    7A824FFFFFFFFFFFFFF
-    7A825FFFFAAAAAAAAAA
-- expected_values:
-    I20_TP_FR: 0.4
+    I20_TP_RR: 31
   response: |-
     7A8102462C00BFFFFFF
     7A82180000000000200
@@ -28,8 +22,7 @@ test_cases:
     7A824FFFFFFFFFFFFFF
     7A825879AAAAAAAAAAA
 - expected_values:
-    I20_TP_FR: 0.4
-    I20_TP_RR: 0.2
+    I20_TP_RR: 31
   response: |-
     7A8102462C00BFFFFFF
     7A82180000000000200
@@ -38,18 +31,8 @@ test_cases:
     7A824FFFFFFFFFF879A
     7A825879AAAAAAAAAAA
 - expected_values:
-    I20_TP_FR: 0.4
-    I20_TP_RR: 0.2
-  response: |-
-    7A8102462C00BFFFFFF
-    7A82180000000000200
-    7A82200000002984A01
-    7A82300000000000002
-    7A8244DFFFFFFFF869A
-    7A825FFFFAAAAAAAAAA
-- expected_values:
-    I20_TP_FR: 0.4
-    I20_TP_RR: 0.2
+    I20_TP_FR: 29.8
+    I20_TP_RR: 30.2
   response: |-
     7A8102462C00BFFFFFF
     7A82180000000000295
@@ -58,7 +41,25 @@ test_cases:
     7A8243CFFFF879A879A
     7A825879AAAAAAAAAAA
 - expected_values:
-    I20_TP_FR: 0.4
+    I20_TP_FR: 30.8
+  response: |-
+    7A8102462C00BFFFFFF
+    7A8218000000000029A
+    7A82241010000000000
+    7A82300020000000002
+    7A824FFFFFF879AFFFF
+    7A825FFFFAAAAAAAAAA
+- expected_values:
+    I20_TP_FR: 30.8
+  response: |-
+    7A8102462C00BFFFFFF
+    7A8218000000000029A
+    7A8224A0100009B4601
+    7A82300000000000002
+    7A824FFFFFF879A879A
+    7A825FFFFAAAAAAAAAA
+- expected_values:
+    I20_TP_FR: 32
   response: |-
     7A8102462C00BFFFFFF
     7A821800000000002A0
@@ -68,7 +69,8 @@ test_cases:
     7A825FFFFAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 28.8
-    I20_TP_RR: 0.2
+    I20_TP_FR: 29.6
+    I20_TP_RR: 30.6
   response: |-
     7A8102462C00BFFFFFF
     7A82180903D01000094
@@ -78,7 +80,8 @@ test_cases:
     7A8258B9DAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29
-    I20_TP_RR: 0.2
+    I20_TP_FR: 29.2
+    I20_TP_RR: 29.6
   response: |-
     7A8102462C00BFFFFFF
     7A82180913901000092
@@ -88,7 +91,8 @@ test_cases:
     7A825879AAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29
-    I20_TP_RR: 0.2
+    I20_TP_FR: 29.2
+    I20_TP_RR: 30
   response: |-
     7A8102462C00BFFFFFF
     7A82180913F01000092
@@ -96,6 +100,17 @@ test_cases:
     7A8230000963E010000
     7A8243D889A879A879A
     7A825879AAAAAAAAAAA
+- expected_values:
+    I20_TP_FL: 29
+    I20_TP_FR: 30
+    I20_TP_RR: 31
+  response: |-
+    7A8102462C00BFFFFFF
+    7A82180914001000096
+    7A82242010000963E01
+    7A82300009B44010000
+    7A8243F879A879A869A
+    7A8258A9BAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29.2
   response: |-
@@ -107,7 +122,8 @@ test_cases:
     7A825FFFFAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 29.8
+    I20_TP_RR: 30.2
   response: |-
     7A8102462C00BFFFFFF
     7A82180923F01000095
@@ -117,7 +133,8 @@ test_cases:
     7A825879AAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29.2
-    I20_TP_RR: 0.4
+    I20_TP_FR: 30
+    I20_TP_RR: 29.4
   response: |-
     7A8102462C00BFFFFFF
     7A82180924901000096
@@ -127,7 +144,8 @@ test_cases:
     7A8258B9EAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 29.6
-    I20_TP_RR: 0.4
+    I20_TP_FR: 30
+    I20_TP_RR: 29.4
   response: |-
     7A8102462C00BFFFFFF
     7A82180944B02000096
@@ -137,7 +155,8 @@ test_cases:
     7A8258B9EAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 30
-    I20_TP_RR: 0.2
+    I20_TP_FR: 30.4
+    I20_TP_RR: 31
   response: |-
     7A8102462C00BFFFFFF
     7A82180964501000098
@@ -147,7 +166,8 @@ test_cases:
     7A825869AAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 30
-    I20_TP_RR: 0.2
+    I20_TP_FR: 31.8
+    I20_TP_RR: 32
   response: |-
     7A8102462C00BFFFFFF
     7A8218096450100009F
@@ -157,7 +177,8 @@ test_cases:
     7A825889AAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 30.4
-    I20_TP_RR: 0.2
+    I20_TP_FR: 31.4
+    I20_TP_RR: 31.4
   response: |-
     7A8102462C00BFFFFFF
     7A8218098480100009D
@@ -167,7 +188,8 @@ test_cases:
     7A8258EA0AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 31
-    I20_TP_RR: 0.2
+    I20_TP_FR: 33.6
+    I20_TP_RR: 31.8
   response: |-
     7A8102462C00BFFFFFF
     7A821809B4F020000A8
@@ -177,7 +199,8 @@ test_cases:
     7A8258A9BAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 31.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 32.2
+    I20_TP_RR: 32
   response: |-
     7A8102462C00BFFFFFF
     7A821809C4B010000A1
@@ -187,7 +210,8 @@ test_cases:
     7A82590A3AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 32.2
-    I20_TP_RR: 0.4
+    I20_TP_FR: 33.2
+    I20_TP_RR: 33.8
   response: |-
     7A8102462C00BFFFFFF
     7A82180A151010000A6
@@ -197,6 +221,7 @@ test_cases:
     7A8258A9CAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 32.2
+    I20_TP_RR: 32.2
   response: |-
     7A8102462C00BFFFFFF
     7A82180A15501000000
@@ -206,7 +231,8 @@ test_cases:
     7A8258C9EAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 33.6
-    I20_TP_RR: 0.2
+    I20_TP_FR: 33.8
+    I20_TP_RR: 31.8
   response: |-
     7A8102462C00BFFFFFF
     7A82180A850010000A9
@@ -216,7 +242,8 @@ test_cases:
     7A8258B9EAAAAAAAAAA
 - expected_values:
     I20_TP_FL: 35
-    I20_TP_RR: 0.2
+    I20_TP_FR: 35.6
+    I20_TP_RR: 34.8
   response: |-
     7A8102462C00BFFFFFF
     7A82180AF61010000B2
@@ -226,7 +253,8 @@ test_cases:
     7A8258EA0AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 35.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 34.4
+    I20_TP_RR: 34.6
   response: |-
     7A8102462C00BFFFFFF
     7A82180B057010000AC
@@ -236,7 +264,8 @@ test_cases:
     7A8258EA1AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 35.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 36
+    I20_TP_RR: 35.4
   response: |-
     7A8102462C00BFFFFFF
     7A82180B060010000B4
@@ -246,7 +275,8 @@ test_cases:
     7A8258EA1AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 35.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 36
+    I20_TP_RR: 35.4
   response: |-
     7A8102462C00BFFFFFF
     7A82180B060010000B4
@@ -256,7 +286,8 @@ test_cases:
     7A8258EA1AAAAAAAAAA
 - expected_values:
     I20_TP_FL: 35.2
-    I20_TP_RR: 0.2
+    I20_TP_FR: 35.8
+    I20_TP_RR: 35.2
   response: |-
     7A8102462C00BFFFFFF
     7A82180B061010000B3
